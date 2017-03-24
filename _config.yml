@@ -1,0 +1,105 @@
+# ---------------- #
+#   Main Configs   #
+# ---------------- #
+baseurl:
+url: https://gaoyuyue.github.io/
+date_format: "ordinal"
+title: Yuyue Gao
+subtitle: "Imagination is more valuable than knowledge"
+description: "高语越的个人博客"
+keywords: 高语越
+favicon: /favicon.ico
+timezone: Asia/Tangshan
+encoding: "utf-8"
+source_code: https://github.com/gaoyuyue/gaoyuyue.github.com
+side_bar_repo_limit: 5
+
+# ---------------- #
+#      Author      #
+# ---------------- #
+author: 高语越
+organization: ncst.edu.cn
+organization_url: http://www.ncst.edu.cn/
+location: Hebei, China
+email: gaoyuyue@outlook.com
+
+# ---------------- #
+#    Navigation    #
+# ---------------- #
+navs:
+  -
+    href: /
+    label: Home
+
+  -
+    href: /blog/
+    label: Blog
+
+  -
+    href: /bookmark/
+    label: Bookmark
+
+  -
+    href: /about/
+    label: About
+
+# ---------------- #
+#       RSS        #
+# ---------------- #
+subscribe_rss: /feed.xml
+
+# ---------------- #
+#      Jekyll      #
+# ---------------- #
+markdown: kramdown
+kramdown:
+    input: GFM
+highlighter: rouge
+paginate: 8
+lsi: false
+quiet: false
+excerpt_separator: "\n\n"
+permalink: /:year/:month/:day/:title/
+gems:
+    - rouge
+#     - jekyll-html-pipeline
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-feed
+    - jemoji
+#     - jekyll-mentions
+collections:
+    wiki:
+        output: true
+        permalink: /wiki/:path/
+
+# ---------------- #
+#      Socials     #
+# ---------------- #
+github_username: gaoyuyue
+# facebook_username: rockcat
+# weibo_username: gaoyuyue
+# zhihu_username: gaoyuyue
+# twitter_username: gaoyuyue
+
+# ---------------- #
+#      Comments    #
+# ---------------- #
+# support provider: disqus, duoshuo, changyan
+comments_provider: disqus
+# !!!重要!!! 请修改下面两个用户名为你自己申请的
+# !!!Important!!! Please modify usernames below to yours
+# duoshuo_username: mazhuang
+# disqus_username: mzlogin
+
+# ---------------- #
+#    Analytics     #
+# ---------------- #
+google:
+    analytics_id: UA-96123363-1
+
+# ---------------- #
+#      Datas       #
+# ---------------- #
+skill_language_keywords: [Java, Scala, C, C++]
+skill_web_app_keywords: [javaEE, Spring ,Spring MVC ,JPA , Hibernate , Shiro ,Redis ,Spring Data ,MySql]
