@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://gaoyuyue.github.io/
+url: https://gaoyuyue.github.io
 date_format: "ordinal"
 title: Yuyue Gao
 subtitle: "Imagination is more valuable than knowledge"
