@@ -18,8 +18,8 @@ side_bar_repo_limit: 5
 #      Author      #
 # ---------------- #
 author: 高语越
-organization: ncst.edu.cn
-organization_url: http://www.ncst.edu.cn/
+organization: wemakebug
+organization_url: https://github.com/wemakebug
 location: Hebei, China
 email: gaoyuyue@outlook.com
 
@@ -77,7 +77,7 @@ collections:
 #      Socials     #
 # ---------------- #
 github_username: gaoyuyue
-# facebook_username: rockcat
+facebook_username: rockcat
 # weibo_username: gaoyuyue
 # zhihu_username: gaoyuyue
 # twitter_username: gaoyuyue
@@ -89,8 +89,8 @@ github_username: gaoyuyue
 comments_provider: disqus
 # !!!重要!!! 请修改下面两个用户名为你自己申请的
 # !!!Important!!! Please modify usernames below to yours
-# duoshuo_username: mazhuang
-# disqus_username: mzlogin
+# duoshuo_username: arthurme
+disqus_username: arthurme
 
 # ---------------- #
 #    Analytics     #
