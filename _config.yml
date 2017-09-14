@@ -85,8 +85,8 @@ facebook_username: rockcat
 # ---------------- #
 #      Comments    #
 # ---------------- #
-# support provider: disqus, duoshuo, changyan, youyan
-# comments_provider: youyan
+# support provider: disqus, duoshuo, changyan, youyan, laibili
+comments_provider: laibili
 # !!!重要!!! 请修改下面两个用户名为你自己申请的
 # !!!Important!!! Please modify usernames below to yours
 # duoshuo_username: arthurme
