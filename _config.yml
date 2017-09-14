@@ -86,12 +86,12 @@ facebook_username: rockcat
 #      Comments    #
 # ---------------- #
 # support provider: disqus, duoshuo, changyan, youyan
-comments_provider: youyan
+# comments_provider: youyan
 # !!!重要!!! 请修改下面两个用户名为你自己申请的
 # !!!Important!!! Please modify usernames below to yours
 # duoshuo_username: arthurme
 # disqus_username: arthurme
-youyan_uid: 2144613
+# youyan_uid: 2144613
 
 # ---------------- #
 #    Analytics     #
