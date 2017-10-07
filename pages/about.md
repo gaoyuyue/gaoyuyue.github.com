@@ -8,7 +8,7 @@ menu: 关于我
 permalink: /about/
 ---
 
-I'm Yuyue Gao
+I'm Gao Yuyue
 
 
 ## 神奇的高先生
