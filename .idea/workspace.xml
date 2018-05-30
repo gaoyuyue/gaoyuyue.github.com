@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3b5893a-a9e5-49a5-a06a-098c69f1e257" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/_posts/2018-5-30-docker安装（ubuntu-阿里源）.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2018-5-30-maven改阿里源.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,12 +27,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-5-30-docker安装（ubuntu-阿里源）.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2018-5-30-docker安装（ubuntu-阿里源）.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2018-5-30-docker安装（ubuntu-阿里源）.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="440">
-                <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+              <first_editor relative-caret-position="330">
+                <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2018-5-30-maven改阿里源.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-5-30-maven改阿里源.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="506">
+                <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               </first_editor>
               <second_editor />
             </state>
@@ -47,6 +60,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/_posts/2018-5-30-docker安装（ubuntu-阿里源）.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-5-30-maven改阿里源.md" />
       </list>
     </option>
   </component>
@@ -59,9 +73,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="292" />
-    <option name="y" value="52" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="548" />
+    <option name="y" value="80" />
     <option name="width" value="1546" />
     <option name="height" value="1000" />
   </component>
@@ -125,18 +139,18 @@
       <option name="presentableId" value="Default" />
       <updated>1527660815405</updated>
       <workItem from="1527660819461" duration="121000" />
-      <workItem from="1527660970536" duration="448000" />
+      <workItem from="1527660970536" duration="2236000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="569000" />
+    <option name="totallyTimeSpent" value="2357000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="292" y="52" width="1546" height="1000" extended-state="0" />
+    <frame x="548" y="80" width="1546" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22215027" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20142487" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -189,8 +203,18 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-5-30-docker安装（ubuntu-阿里源）.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="440">
-            <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <first_editor relative-caret-position="330">
+            <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-5-30-maven改阿里源.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="506">
+            <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           </first_editor>
           <second_editor />
         </state>
