@@ -24,7 +24,7 @@ category: docker
 - STOPSIGNAL (当容器退出时给系统发送什么样的指令)
 - HEALTHCHECK (健康检查)
 
-## FROM
+## FROM 
 
 DockerFile第一条必须为From指令。如果同一个DockerFile创建多个镜像时，可使用多个From指令（每个镜像一次）
 ```dockerfile
@@ -95,10 +95,12 @@ ENV PATH /usr/local/postgres-$PG_MAJOR/bin:$PATH
  一个复制命令，把文件复制到景象中。
 
 如果把虚拟机与容器想象成两台linux服务器的话，那么这个命令就类似于scp，只是scp需要加用户名和密码的权限验证，而ADD不用。
+
 ```dockerfile
 ADD <src>... <dest>
 ADD ["<src>",... "<dest>"]
 ```
+
 <dest>路径的填写可以是容器内的绝对路径，也可以是相对于工作目录的相对路径
 
 <src>可以是一个本地文件或者是一个本地压缩文件，还可以是一个url`
@@ -106,12 +108,12 @@ ADD ["<src>",... "<dest>"]
 该命令将复制指定的文件夹到容器中的。其中文件夹可以是Dockerfile所在目录的一个相对路径；也可以是一个URL；还可以是一个tar文件(自动解压为目录)。
 
 例：
+
 ```dockerfile
 ADD test relativeDir/ 
 ADD test /relativeDir
 ADD http://example.com/foobar /
 ```
-
 
 ## COPY
 
@@ -119,6 +121,7 @@ ADD http://example.com/foobar /
 COPY <src>... <dest>
 COPY ["<src>",... "<dest>"]
 ```
+
 复制本地主机的文件夹（为Dockerfile所在目录的相对路径）到容器中。
 当使用本地目录为源目录时，推荐使用`COPY`。
 
@@ -129,6 +132,7 @@ ENTRYPOINT ["executable", "param1", "param2"]
 # 在shell中执行
 ENTRYPOINT command param1 param2 
 ```
+
 配置容器启动后执行的命令，并且不可被`docker run`提供的参数覆盖。    
 每个Dockerfile中只能有一个`ENTRYPOINT`，当指定多个时，只有最后一个起效。
 
@@ -137,13 +141,16 @@ ENTRYPOINT command param1 param2
 ```dockerfile
 VOLUME ["/data"] 
 ```
+
 创建一个可以从本地主机或其他容器挂载的挂载点，一般用来存放数据库和需要保持的数据等。
 例：
+
 ```dockerfile
 VOLUME ["/var/log/"]
 VOLUME /var/log
 VOLUME /var/log /var/db
 ```
+
 一般的使用场景为需要持久化存储数据时。
 容器使用的是`AUFS`，这种文件系统不能持久化数据，当容器关闭后，所有的更改都会丢失。
 所以当数据需要持久化时用这个命令。
@@ -154,6 +161,7 @@ VOLUME /var/log /var/db
 USER daemon
 USER UID
 ```
+
 指定运行容器时的用户名或UID，后续的 RUN 也会使用指定用户。
 当服务不需要管理员权限时，可以通过该命令指定运行用户。并且可以在之前创建所需要的用户，例如：`RUN groupadd -r postgres && useradd -r -g postgres postgres`。要临时获取管理员权限可以使用`gosu`，而不推荐`sudo`。
 
@@ -162,9 +170,11 @@ USER UID
 ```dockerfile
 WORKDIR /path/to/workdir
 ```
+
 为后续的`RUN`、`CMD`、`ENTRYPOINT`指令配置工作目录。
 可以使用多个`WORKDIR`指令，后续命令如果参数是相对路径，则会基于之前命令指定的路径。
 例如：
+
 ```dockerfile
 WORKDIR /a
 WORKDIR b
@@ -188,6 +198,7 @@ ONBUILD ADD . /app/src
 ONBUILD RUN /usr/local/bin/python-build –dir /app/src
 [...] 
 ```
+
 如果基于A创建新的镜像时，新的Dockerfile中使用`FROM image-A`指定基础镜像时，会自动执行`ONBUILD`指令内容，等价于在后面添加了两条指令。
 
 ```dockerfile
@@ -214,10 +225,12 @@ LABEL version="1.0"
 LABEL description="This text illustrates \
 that label-values can span multiple lines."
 ``` 
+
 说明：LABEL会继承基础镜像种的LABEL，如遇到key相同，则值覆盖
 
 ## STOPSIGNAL
 当容器退出时给系统发送什么样的指令
+
 ```dockerfile
 STOPSIGNAL signal
 ```
@@ -283,6 +296,7 @@ sudo docker build -t build_repo/my_images /tmp/docker_build/
 ```
 
 ## 配置实例
+
 ```dockerfile
 FROM frolvlad/alpine-oraclejdk8:slim
 VOLUME /tmp
