@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3b5893a-a9e5-49a5-a06a-098c69f1e257" name="Default" comment="" />
+    <list default="true" id="f3b5893a-a9e5-49a5-a06a-098c69f1e257" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/_posts/2018-5-31-ubuntu更新国内源.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -36,12 +39,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-5-31-dockerfile.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2018-5-31-dockerfile.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2018-5-31-dockerfile.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="352">
-                <caret line="280" column="45" selection-start-line="280" selection-start-column="45" selection-end-line="280" selection-end-column="45" />
+              <first_editor relative-caret-position="51">
+                <caret line="274" column="3" lean-forward="true" selection-start-line="274" selection-start-column="3" selection-end-line="274" selection-end-column="3" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2018-5-31-ubuntu更新国内源.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-5-31-ubuntu更新国内源.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="711">
+                <caret line="87" column="16" lean-forward="true" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="16" />
               </first_editor>
               <second_editor />
             </state>
@@ -72,6 +87,7 @@
         <option value="$PROJECT_DIR$/_posts/2018-5-30-maven改阿里源.md" />
         <option value="$PROJECT_DIR$/_posts/2018-5-30-dockerfile.md" />
         <option value="$PROJECT_DIR$/_posts/2018-5-31-dockerfile.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-5-31-ubuntu更新国内源.md" />
       </list>
     </option>
   </component>
@@ -151,12 +167,12 @@
       <updated>1527660815405</updated>
       <workItem from="1527660819461" duration="121000" />
       <workItem from="1527660970536" duration="4916000" />
-      <workItem from="1527728044149" duration="7638000" />
+      <workItem from="1527728044149" duration="8382000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12675000" />
+    <option name="totallyTimeSpent" value="13419000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
@@ -271,8 +287,18 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-5-31-dockerfile.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="352">
-            <caret line="280" column="45" selection-start-line="280" selection-start-column="45" selection-end-line="280" selection-end-column="45" />
+          <first_editor relative-caret-position="51">
+            <caret line="274" column="3" lean-forward="true" selection-start-line="274" selection-start-column="3" selection-end-line="274" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-5-31-ubuntu更新国内源.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="711">
+            <caret line="87" column="16" lean-forward="true" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="16" />
           </first_editor>
           <second_editor />
         </state>
