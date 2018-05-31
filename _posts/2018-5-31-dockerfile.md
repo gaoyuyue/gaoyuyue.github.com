@@ -278,7 +278,7 @@ HEALTHCHECK --interval=5m --timeout=3s \
 CMD curl -f http://localhost/ || exit 1
 ```
 
-健康检查命令是：curl -f http://localhost/ || exit 1
+健康检查命令是：`curl -f http://localhost/ || exit 1`
 
 两次检查的间隔时间是5秒
 
