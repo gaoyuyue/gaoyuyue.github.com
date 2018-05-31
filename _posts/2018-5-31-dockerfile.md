@@ -96,10 +96,6 @@ ENV PATH /usr/local/postgres-$PG_MAJOR/bin:$PATH
 
 如果把虚拟机与容器想象成两台linux服务器的话，那么这个命令就类似于scp，只是scp需要加用户名和密码的权限验证，而ADD不用。
 
-```dockerfile
-ADD <src>... <dest>
-ADD ["<src>",... "<dest>"]
-```
 
 <dest>路径的填写可以是容器内的绝对路径，也可以是相对于工作目录的相对路径
 
