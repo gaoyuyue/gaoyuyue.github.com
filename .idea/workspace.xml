@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3b5893a-a9e5-49a5-a06a-098c69f1e257" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/_posts/2018-5-31-dockerfile.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-5-31-dockerfile.md" afterDir="false" />
-    </list>
+    <list default="true" id="f3b5893a-a9e5-49a5-a06a-098c69f1e257" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -42,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-5-31-dockerfile.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="748">
+              <first_editor relative-caret-position="352">
                 <caret line="280" column="45" selection-start-line="280" selection-start-column="45" selection-end-line="280" selection-end-column="45" />
               </first_editor>
               <second_editor />
@@ -153,12 +151,12 @@
       <updated>1527660815405</updated>
       <workItem from="1527660819461" duration="121000" />
       <workItem from="1527660970536" duration="4916000" />
-      <workItem from="1527728044149" duration="7002000" />
+      <workItem from="1527728044149" duration="7638000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12039000" />
+    <option name="totallyTimeSpent" value="12675000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
@@ -273,7 +271,7 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-5-31-dockerfile.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="748">
+          <first_editor relative-caret-position="352">
             <caret line="280" column="45" selection-start-line="280" selection-start-column="45" selection-end-line="280" selection-end-column="45" />
           </first_editor>
           <second_editor />
