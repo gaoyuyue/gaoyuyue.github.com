@@ -1,10 +1,10 @@
 ---
 layout: post
-title: 微信公众平台开发web应用（一） 准备
-description: 微信公众平台开发web应用（一） 准备
+title: SpringMVC+Spring+JPA+Hibernate+Shiro配置整合
+description: SpringMVC+Spring+JPA+Hibernate+Shiro配置整合
 category: javaweb
 ---
-# 微信公众平台开发web应用（一）——准备
+# SpringMVC+Spring+JPA+Hibernate+Shiro配置整合
 * 开发工具：IntelliJ IDEA
 * 构建工具：Gradle
 * 语言：java
@@ -13,10 +13,10 @@ category: javaweb
 ## Gradle+Maven仓库新建WEB项目
 ### Gradle构建web项目
 New->Project...->选择Project SDK->填写项目名称等即可，大致流程如下图：
-![1](http://attackme.cn/picture/2017-3-27_2.png)
-![2](http://attackme.cn/picture/2017-3-27_3.png)
-![3](http://attackme.cn/picture/2017-3-27_4.png)
-![4](http://attackme.cn/picture/2017-3-27_5.png)
+![1](https://gaoyuyue.github.io/picture/2017-3-27_2.png)
+![2](https://gaoyuyue.github.io/picture/2017-3-27_3.png)
+![3](https://gaoyuyue.github.io/picture/2017-3-27_4.png)
+![4](https://gaoyuyue.github.io/picture/2017-3-27_5.png)
 ### Grale项目设置
 打开项目，我们将看到根目录下有一个以build.gradle命名的文件，这个文件是Gradle项目的配置文件，接下来我们将添加配置到build.gradle文件。具体配置如下：
 
@@ -773,8 +773,8 @@ hibernate.hbm2ddl.auto=update
 </beans>
 ```
 到这里 SpringMVC+Spring+JPA+Hibernate+Shiro的基本配置文件基本就完成了,大致的项目结构如下：
-![结构](http://attackme.cn/picture/2017-3-27_1.png)
+![结构](https://gaoyuyue.github.io/picture/2017-3-27_1.png)
 
 本篇主要以代码示例为主，下一篇我将简述一个基于这个框架的简单应用。
 
-转载请注明出处：[http://attackme.cn/2017/03/27/微信公众平台开发web应用-一-准备/](http://attackme.cn/2017/03/27/微信公众平台开发web应用-一-准备/)
+转载请注明出处：[https://gaoyuyue.github.io/2017/03/27/SpringMVC+Spring+JPA+Hibernate+Shiro配置整合/](https://gaoyuyue.github.io/2017/03/27/SpringMVC+Spring+JPA+Hibernate+Shiro配置整合/)
