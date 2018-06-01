@@ -37,3 +37,10 @@ I'm Gao Yuyue
     <button class="btn btn-outline" type="button">{{ keyword }}</button>
     {% endfor %}
 </div>
+
+#### Development Utils Keywords
+<div class="btn-inline">
+    {% for keyword in site.skill_development_utils_keywords %}
+    <button class="btn btn-outline" type="button">{{ keyword }}</button>
+    {% endfor %}
+</div>

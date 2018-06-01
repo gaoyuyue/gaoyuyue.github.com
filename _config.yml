@@ -102,5 +102,6 @@ google:
 # ---------------- #
 #      Datas       #
 # ---------------- #
-skill_language_keywords: [Java, Python, Scala, C, C++]
-skill_web_app_keywords: [javaEE, Spring ,Spring MVC ,JPA , Hibernate , Shiro ,Redis ,Spring Data, MySql, Play]
+skill_language_keywords: [Java, go, Python, Scala, javascript, C, C++]
+skill_web_app_keywords: [JavaEE, Spring ,Spring MVC ,JPA, Hibernate, Mybatis, Shiro, Redis, Netty, Spring Data, MySql, Play]
+skill_development_utils_keywords: [IDEA, git, maven, gradle, jenkins, docker]
