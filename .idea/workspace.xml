@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3b5893a-a9e5-49a5-a06a-098c69f1e257" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2018-6-2-docker-compose配置文件.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,21 +17,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="106" selection-start-line="106" selection-end-line="106" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/about.md">
+      <file leaf-file-name="2018-6-2-docker-compose配置文件.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-6-2-docker-compose配置文件.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="791">
-                <caret line="41" column="24" lean-forward="true" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+              <first_editor relative-caret-position="835">
+                <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
               </first_editor>
               <second_editor />
             </state>
@@ -58,6 +49,7 @@
         <option value="$PROJECT_DIR$/_posts/2017-3-27-SpringMVC+Spring+JPA+Hibernate+Shiro配置整合.md" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/pages/about.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-6-2-docker-compose配置文件.md" />
       </list>
     </option>
   </component>
@@ -95,7 +87,7 @@
             <path>
               <item name="gaoyuyue.github.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="gaoyuyue.github.com" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="_posts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -138,12 +130,12 @@
       <workItem from="1527660819461" duration="121000" />
       <workItem from="1527660970536" duration="4916000" />
       <workItem from="1527728044149" duration="9125000" />
-      <workItem from="1527748924564" duration="12417000" />
+      <workItem from="1527748924564" duration="15440000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26579000" />
+    <option name="totallyTimeSpent" value="29602000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
@@ -415,16 +407,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="106" selection-start-line="106" selection-end-line="106" selection-end-column="32" />
+        <state relative-caret-position="484">
+          <caret line="93" column="21" lean-forward="true" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/about.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="791">
+          <first_editor relative-caret-position="902">
             <caret line="41" column="24" lean-forward="true" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-6-2-docker-compose配置文件.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="835">
+            <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
           </first_editor>
           <second_editor />
         </state>
